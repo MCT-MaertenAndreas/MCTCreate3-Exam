@@ -409,6 +409,24 @@ input:disabled {
 }
 
 /**
+ * Component: Changes Textarea
+ */
+.c-changes {
+
+}
+.c-changes label {
+    display: block;
+}
+.c-changes textarea {
+    padding: var(--global-baseline);
+
+    width: 100%;
+    height: 160px;
+
+    resize: none;
+}
+
+/**
  * Component: Form
  */
 .c-form-field {
