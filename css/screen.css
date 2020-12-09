@@ -424,7 +424,8 @@ input:disabled {
  * Component: List
  */
 .c-list__languages {
-    display: block;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
 /**
