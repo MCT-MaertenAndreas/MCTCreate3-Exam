@@ -19,103 +19,120 @@
         <link rel="stylesheet" href="css/screen.css">
     </head>
     <body>
-        <form action="#">
-            <h1>
-                Cursusevaluatie
-            </h1>
-            <p>
-                Graag ontvangen we je mening over de cursus die je zojuist hebt voltooid, inclusief feedback over de cursusstructuur, de
-                content en de docent.
-            </p>
-            <p>
-                Vond je het een leuke module tot nu toe?
-            </p>
-            <ul>
-                <li>
-                    <input type="radio" name="radios" id="radio1" required>
-                    <label>
-                        Ja
-                    </label>
-                </li>
-                <li>
-                    <input type="radio" name="radios" id="radio2" required>
-                    <label>
-                        Zeker
-                    </label>
-                </li>
-                <li>
-                    <input type="radio" name="radios" id="radio3" required>
-                    <label>
-                        Absoluut
-                    </label>
-                </li>
-            </ul>
-            <p>
-                Waar ging de module over?
-            </p>
-            <ul>
-                <li>
-                    <input type="checkbox" checked>
-                    <label>
-                        CSS
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox">
-                    <label>
-                        Javascript
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox">
-                    <label>
-                        Python
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox">
-                    <label>
-                        Flask
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox">
-                    <label>
-                        MySQL
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox">
-                    <label>
-                        Jinja
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox">
-                    <label>
-                        Android
-                    </label>
-                </li>
-                <li>
-                    <input type="checkbox">
-                    <label>
-                        C-Sharp
-                    </label>
-                </li>
-            </ul>
-            <p>
-                <label>
-                    Wat zou je veranderen?
-                </label>
-                <textarea name="changes" id="changes"></textarea>
-            </p>            
-            <p>
-                <button type="button">Vorige</button>
-                <button type="submit">Volgende</button>
-            </p>
-            <p>
-                Stap 2 van 3
-            </p>
-        </form>
+        <section class="o-row o-row--lg o-row--login">
+            <div class="o-container u-max-width-xs">
+                <form class="c-card" action="#">
+                    <div class="c-card__header"></div>
+                    <div class="c-card__body">
+                        <h1 class="c-card__title">
+                            Cursusevaluatie
+                        </h1>
+                        <p>
+                            Graag ontvangen we je mening over de cursus die je zojuist hebt voltooid, inclusief feedback over de cursusstructuur, de
+                            content en de docent.
+                        </p>
+                        <p>
+                            Vond je het een leuke module tot nu toe?
+                        </p>
+                        <ul class="o-list c-option-list">
+                            <li class="c-form-field c-form-field--option c-option-list__item">
+                                <input class="o-hide-accessible c-option c-option--hidden" type="radio" name="radios" id="radio1">
+                                <label class="c-label c-label--option c-custom-option" for="radio1">
+                                    <span class="c-custom-option__fake-input c-custom-option__fake-input--radio">
+                                        <span class="c-custom-option__symbol"></span>
+                                    </span>
+                                    J
+                                </label>
+                            </li>
+                            <li class="c-form-field c-form-field--option c-option-list__item">
+                                <input class="o-hide-accessible c-option c-option--hidden" type="radio" name="radios" id="radio2" checked>
+                                <label class="c-label c-label--option c-custom-option" for="radio2">
+                                    <span class="c-custom-option__fake-input c-custom-option__fake-input--radio">
+                                        <span class="c-custom-option__symbol"></span>
+                                    </span>
+                                    Zeke
+                                </label>
+                            </li>
+                            <li class="c-form-field c-form-field--option c-option-list__item">
+                                <input class="o-hide-accessible c-option c-option--hidden" type="radio" name="radios" id="radio3">
+                                <label class="c-label c-label--option c-custom-option" for="radio3">
+                                    <span class="c-custom-option__fake-input c-custom-option__fake-input--radio">
+                                        <span class="c-custom-option__symbol"></span>
+                                    </span>
+                                    Absoluu
+                                </label>
+                            </li>
+                        </ul>
+                        <p>
+                            Waar ging de module over?
+                        </p>
+                        <ul class="c-list__languages o-list">
+                            <li class="c-checkbox-button">
+                                <label class="c-checkbox-button--label">
+                                    <input class="c-checkbox-button--label-input" type="checkbox" value="1">
+                                    <span class="c-checkbox-button--label-span">CSS</span>
+                                </label>
+                            </li>
+                            <li class="c-checkbox-button">
+                                <label class="c-checkbox-button--label">
+                                    <input class="c-checkbox-button--label-input" type="checkbox" value="1">
+                                    <span class="c-checkbox-button--label-span">Javascript</span>
+                                </label>
+                            </li>
+                            <li class="c-checkbox-button">
+                                <label class="c-checkbox-button--label">
+                                    <input class="c-checkbox-button--label-input" type="checkbox" value="1">
+                                    <span class="c-checkbox-button--label-span">Python</span>
+                                </label>
+                            </li>
+                            <li class="c-checkbox-button">
+                                <label class="c-checkbox-button--label">
+                                    <input class="c-checkbox-button--label-input" type="checkbox" value="1">
+                                    <span class="c-checkbox-button--label-span">Flask</span>
+                                </label>
+                            </li>
+                            <li class="c-checkbox-button">
+                                <label class="c-checkbox-button--label">
+                                    <input class="c-checkbox-button--label-input" type="checkbox" value="1">
+                                    <span class="c-checkbox-button--label-span">MySQL</span>
+                                </label>
+                            </li>
+                            <li class="c-checkbox-button">
+                                <label class="c-checkbox-button--label">
+                                    <input class="c-checkbox-button--label-input" type="checkbox" value="1">
+                                    <span class="c-checkbox-button--label-span">Jinja</span>
+                                </label>
+                            </li>
+                            <li class="c-checkbox-button">
+                                <label class="c-checkbox-button--label">
+                                    <input class="c-checkbox-button--label-input" type="checkbox" value="1">
+                                    <span class="c-checkbox-button--label-span">Android</span>
+                                </label>
+                            </li>
+                            <li class="c-checkbox-button">
+                                <label class="c-checkbox-button--label">
+                                    <input class="c-checkbox-button--label-input" type="checkbox" value="1">
+                                    <span class="c-checkbox-button--label-span">C-Sharp</span>
+                                </label>
+                            </li>
+                        </ul>
+                        <p>
+                            <label for="changes">
+                                Wat zou je veranderen?
+                            </label>
+                            <textarea name="changes" id="changes"></textarea>
+                        </p>
+                        <p>
+                            <button type="button">Vorige</button>
+                            <button type="submit">Volgende</button>
+                        </p>
+                    </div>
+                    <div class="c-card__footer">
+                        <progress value="2" max="3"></progress>
+                        <p>Stap 2 van 3</p>
+                    </div>
+                </form>
+            </div>
+        </section>
     </body>
 </html>
