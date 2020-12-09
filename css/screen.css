@@ -392,6 +392,23 @@ input:disabled {
 \*------------------------------------*/
 
 /**
+ * Component: Button
+ */
+.c-button__primary {
+    background-color:var(--global-checkbox-color);
+
+    color: #333;
+    font-size: 16px;
+
+    float: right;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 0.5rem 2rem;
+}
+
+/**
  * Component: Form
  */
 .c-form-field {
