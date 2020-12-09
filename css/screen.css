@@ -276,16 +276,25 @@ progress {
     Creates a horizontal row that stretches the viewport and adds padding around children
 */
 
-.o-row {
+/*.o-row {
     position: relative;
     padding: 24px 24px 0;
 }
 
-/* size modifiers */
-
 .o-row--lg {
     padding-top: 48px;
     padding-bottom: 24px;
+}*/
+
+@media (min-width: 512px) {
+    .o-row {
+        position: relative;
+        padding: 24px 24px 0;
+    }
+    .o-row--lg {
+        padding-top: 48px;
+        padding-bottom: 24px;
+    }
 }
 
 .o-row--xl {
