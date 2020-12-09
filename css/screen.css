@@ -657,7 +657,7 @@ progress {
 }
 
 .c-card__title {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
 
     line-height: calc(var(--global-baseline) * 3);
