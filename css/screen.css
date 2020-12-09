@@ -405,6 +405,17 @@ progress {
 \*------------------------------------*/
 
 /**
+ * Component: Back Button
+ */
+.cls-1 {
+        fill: none;
+        stroke: var(--global-arrow-color);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+}
+
+/**
  * Component: Progressbar
  */
 .c-progressbar {
