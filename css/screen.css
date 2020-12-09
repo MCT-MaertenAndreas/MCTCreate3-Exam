@@ -472,6 +472,10 @@ progress {
     box-shadow: 0 0 0 3px rgba(73, 0, 230, .3);
 }
 
+.c-button__previous {
+    cursor: pointer !important;
+}
+
 /**
  * Component: Changes Textarea
  */
