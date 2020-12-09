@@ -427,6 +427,9 @@ progress {
     width: 100%;
     height: 160px;
 
+    border: 1px solid #DCDAE0;
+    border-radius: 5px;
+
     resize: none;
 }
 
@@ -509,6 +512,7 @@ progress {
     --custom-option-focus-boxShadow: var(--global-input-focus-boxShadowSpread) var(--custom-option-focus-boxShadowColor);
     --custom-option__symbol-fill: var(--global-color-alpha);
     --custom-option-transition: var(--global-transitionDuration-alpha) var(--global-transitionEasing-out);
+
     display: flex;
     align-items: center;
 }
@@ -517,11 +521,15 @@ progress {
     display: flex;
     align-items: center;
     justify-content: center;
+
     width: 16px;
     height: 16px;
+
     margin-right: 8px;
+
     background: var(--custom-option-background);
     border: 1px solid var(--custom-option-borderColor);
+
     transition: all var(--custom-option-transition);
     box-shadow: var(--custom-option-boxShadow, 0);
 }
@@ -536,7 +544,9 @@ progress {
 
 .c-custom-option__symbol {
     display: block;
+
     opacity: 0;
+
     transform: scale(.5);
     transition: transform var(--custom-option-transition), opacity var(--custom-option-transition);
 }
@@ -544,6 +554,7 @@ progress {
 .c-custom-option__fake-input--checkbox .c-custom-option__symbol {
     width: 10px;
     height: 10px;
+    
     fill: var(--custom-option__symbol-fill);
 }
 
