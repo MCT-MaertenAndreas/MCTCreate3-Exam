@@ -396,6 +396,33 @@ progress {
 \*------------------------------------*/
 
 /**
+ * Component: Progressbar
+ */
+.c-progressbar {
+    --progressbar-height: 12px;
+
+    height: var(--progressbar-height);
+
+    margin-top: var(--global-baseline);
+
+    background-color: #DCDAE0;
+
+    border-radius: calc(var(--progressbar-height) / 2);
+
+    overflow: none;
+}
+.c-progressbar::-webkit-progress-value {
+    background-color: #4E00EA;
+
+    border-radius: calc(var(--global-whitespace-md) / 2);
+}
+.c-progressbar::-webkit-progress-bar {
+    box-shadow: none;
+
+    background-color: transparent;
+}
+
+/**
  * Component: Button
  */
 .c-button__primary {
