@@ -731,7 +731,14 @@ progress {
 \*------------------------------------*/
 
 /**
- * Utilities: NoSelect
+ * Utility: Unset All
+ */
+.u-all__unset {
+    all: unset;
+}
+
+/**
+ * Utility: NoSelect
  */
 .u-noselect {
     -webkit-touch-callout: none;
