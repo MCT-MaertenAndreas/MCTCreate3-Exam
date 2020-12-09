@@ -399,6 +399,8 @@ progress {
  * Component: Button
  */
 .c-button__primary {
+    outline: none;
+
     background-color: #4E00EA;
 
     color: #fff;
