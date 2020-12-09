@@ -8,27 +8,39 @@
 
 :root {
     /* colors */
-    --global-color-alpha-light: #4F95FF;
-    --global-color-alpha: #3385FF;
-    --global-color-alpha-dark: #2E77E6;
-    --global-color-alpha-x-dark: #1B4186;
-    --global-color-alpha-transparent: #3385ffbf;
-    --global-color-alpha-x-transparent: #3385ff4d;
+    --global-body-background-dark: #17161A;
+    --global-background-color-dark:#232226;
+    --global-color-dark: White;
 
-    --global-color-neutral-xxxx-light: #F5F6FA;
-    --global-color-neutral-xxx-light: #E2E3E7;
-    --global-color-neutral-xx-light: #caccd4;
-    --global-color-neutral-x-light: #b5b6c0;
-    --global-color-neutral-light: #a0a1ad;
-    --global-color-neutral: #8b8c9a;
-    --global-color-neutral-dark: #757787;
-    --global-color-neutral-x-dark: #606274;
-    --global-color-neutral-xx-dark: #4b4c60;
-    --global-color-neutral-xxx-dark: #35374d;
-    --global-color-neutral-xxxx-dark: #20223a;
-    --global-color-error: #FF3333;
-    --global-color-error-transparent: #FF3333bf;
-    --global-color-error-x-transparent: #FF33334d;
+    --global-checkbox-background-color-dark: #47454D;
+    --global-checkbox-checked-color: #8B33FB;
+
+    --global-accent-color-dark: #8B33FB;
+    --global-shadow-color-dark: #8B33FB;
+
+    --global-arrow-color-dark: #DCDAE0;
+
+    --global-body-background: #fff;
+
+    --global-checkbox-background-color: #EFEFEF;
+    --global-checkbox-checked-color: #4E00EA;
+
+    --global-accent-color:#4E00EA;
+    --global-accent-color-purple: #6A00FD;
+    --global-accent-color-active: #4C09DB;
+
+
+    --global-shadow-color: #4900e648;
+
+    --card-header-color: #4E00EA;
+
+    --global-color-darkgrey: #C8C6CC;
+
+    --global-font-grey: #A2A1A6;
+
+    --global-input-border-color:#47454D;
+
+    --global-arrow-color: #17161a;
 
     /* global page settings */
     --global-page-color: var(--global-color-neutral-xxxx-dark);
