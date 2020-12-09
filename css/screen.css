@@ -435,6 +435,8 @@ progress {
     display: block;
 }
 .c-changes textarea {
+    outline: none;
+
     padding: var(--global-baseline);
 
     width: 100%;
@@ -444,6 +446,11 @@ progress {
     border-radius: 5px;
 
     resize: none;
+}
+.c-changes textarea:focus {
+    border: 1px solid #4E00EA;
+
+    box-shadow: 0 0 0 3px rgba(73, 0, 230, .3);
 }
 
 /**
