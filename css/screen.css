@@ -591,6 +591,15 @@ progress {
     background-color: #C8C6CC;
 }
 
+.c-checkbox-button .c-checkbox-button--label-input:focus + .c-checkbox-button--label-span {
+    border: 1px solid #4E00EA;
+    box-shadow: 0 0 0 3px rgba(78, 0, 234, .3);
+}
+
+.c-checkbox-button .c-checkbox-button--label-input:hover:focus + .c-checkbox-button--label-span {
+    background-color:  #4E00EA;
+}
+
 .c-checkbox-button--label {
     float: left;
 
@@ -605,6 +614,7 @@ progress {
     font-size: 14px;
     font-weight: 600;
 
+    border: 1px solid transparent;
     border-radius: 16px;
 
     padding: 4px 8px;
