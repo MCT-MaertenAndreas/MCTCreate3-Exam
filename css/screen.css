@@ -598,9 +598,15 @@ progress {
 }
 
 .c-checkbox-button--label-span {
+    cursor: pointer;
+
     display:  block;
 
     font-size: 14px;
+    font-weight: 600;
+
+    border-radius: 16px;
+
     padding: 4px 8px;
 
     text-align: center;
