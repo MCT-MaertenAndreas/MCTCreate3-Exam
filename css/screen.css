@@ -706,6 +706,10 @@ progress {
     border-top: var(--global-borderWidth) solid var(--card__footer-borderColor, var(--global-color-neutral-xxx-light));
 }
 
+.c-card__footer p {
+    text-align: right;
+}
+
 .c-card__title {
     font-size: 24px;
     font-weight: 600;
