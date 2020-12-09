@@ -71,6 +71,13 @@
     --global-input-error-boxShadowColor: var(--global-color-error-x-transparent);
 }
 
+/*@media (prefers-color-scheme: dark) {
+    .c-card {
+        --card-backgroundColor: var(--global-color-neutral-xxx-dark);
+        --card__footer-borderColor: var(--global-color-neutral-xxxx-dark);
+    }
+}*/
+
 /*------------------------------------*\
 #GENERIC
 \*------------------------------------*/
