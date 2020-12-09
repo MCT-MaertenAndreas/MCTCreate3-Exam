@@ -83,27 +83,6 @@
     --global-input-error-boxShadowColor: var(--global-color-error-x-transparent);
 }
 
-@media (prefers-color-scheme: dark) {
-    .c-card {
-        --card-backgroundColor: var(--global-background-color-dark);
-    }
-
-    html {
-        background-color: var(--global-body-background-dark);
-    }
-
-    body {
-        color: var(--global-color-dark);
-        --global-checkbox-background-color: var(--global-checkbox-background-color-dark);
-        --global-accent-color: var(--global-accent-color-dark);
-        --global-shadow-color: var(--global-shadow-color-dark);
-    }
-
-    .cls-1{
-        --global-arrow-color: var(--global-arrow-color-dark);
-    }
-}
-
 /*------------------------------------*\
 #GENERIC
 \*------------------------------------*/
@@ -932,6 +911,27 @@ progress {
 /*------------------------------------*\
 #MEDIA
 \*------------------------------------*/
+
+@media (prefers-color-scheme: dark) {
+    .c-card {
+        --card-backgroundColor: var(--global-background-color-dark);
+    }
+
+    html {
+        background-color: var(--global-body-background-dark);
+    }
+
+    body {
+        color: var(--global-color-dark);
+        --global-checkbox-background-color: var(--global-checkbox-background-color-dark);
+        --global-accent-color: var(--global-accent-color-dark);
+        --global-shadow-color: var(--global-shadow-color-dark);
+    }
+
+    .cls-1{
+        --global-arrow-color: var(--global-arrow-color-dark);
+    }
+}
 
 /*
     Media Queries
